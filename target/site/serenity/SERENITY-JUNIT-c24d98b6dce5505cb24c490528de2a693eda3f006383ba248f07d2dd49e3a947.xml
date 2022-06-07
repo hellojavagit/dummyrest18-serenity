@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps" skipped="0" tests="5" time="5.56" timestamp="2022-06-07T17:57:35.150+01:00[Europe/London]"><testcase classname="com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps" name="Getting All The Employees Details"/><testcase classname="com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps" name="Getting the Single Employee Details By Id"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps.test002(EmployeeCurdTestWithSteps.java:31)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps" name="Creating an Employee"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps.test003(EmployeeCurdTestWithSteps.java:38)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps" name="Updating an Employee"><error message="Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: id." type="java.lang.IllegalArgumentException">Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: id.</error><system-err>Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: id.&#13;
+io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1336)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1223)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1722)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1728)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:176)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:233)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.put(RequestSpecificationDecorated.java:105)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.put(RequestSpecificationDecorated.java:27)&#13;
+com.restapiexample.dummy.employeeinfo.EmployeeSteps.updateEmployee(EmployeeSteps.java:60)&#13;
+com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps.test004(EmployeeCurdTestWithSteps.java:45)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps" name="Deleting the Employee and verify if the Employee is deleted or not"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.employeeinfo.EmployeeCurdTestWithSteps.test005(EmployeeCurdTestWithSteps.java:51)&#13;
+</system-err></testcase></testsuite>
